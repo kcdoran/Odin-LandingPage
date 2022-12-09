@@ -1,5 +1,35 @@
+* {
+    box-sizing: border-box;
+   outline-style: dotted;
+    outline-width: 1px; 
+  
+  }
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+  h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0px;
+    padding: 0px;
+}
+
 .Action {
-    background-color: aliceblue;
+    background-color: white;
+}
+
+.actionText {
+    font-size: 18px;
+    color: white;
+    background-color:#3882f6;
+}
+
+.actionButton {
+    color: white;
+    background-color: #3882f6;
 }
 
 .Footer {
@@ -21,18 +51,22 @@
 }
 
 .Main {
-    background-color: aliceblue;
+    background-color: white;
+}
+
+.randomImage {
+    height: 100px;
+    width: 100px;
 }
 
 .Testimonial {
     background-color: #E5E7EB;
 }
 
-
-
-
-
-h1 {
-    font-size: 48px;
-    color: #f9faf8;
+.testimonialText {
+    color: #1f2937;
+    font-size: 36px;
 }
+
+
+
