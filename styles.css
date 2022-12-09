@@ -1,0 +1,38 @@
+.Action {
+    background-color: aliceblue;
+}
+
+.Footer {
+    background-color: #1F2937;
+}
+
+.Header {
+    background-color: #1F2937 ;
+}
+
+.introText {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.introImage {
+    height: 200px;
+    width: 400px;
+}
+
+.Main {
+    background-color: aliceblue;
+}
+
+.Testimonial {
+    background-color: #E5E7EB;
+}
+
+
+
+
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
