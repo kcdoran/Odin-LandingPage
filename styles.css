@@ -6,7 +6,7 @@
   }
 body {
     margin: 0px;
-    padding: 0px;
+
 }
 
 
@@ -15,6 +15,11 @@ body {
     color: #f9faf8;
     margin: 0px;
     padding: 0px;
+}
+
+
+li {
+    list-style: none;
 }
 
 .Action {
@@ -32,17 +37,37 @@ body {
     background-color: #3882f6;
 }
 
+
+
 .Footer {
     background-color: #1F2937;
+}
+
+.fourPics {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .Header {
     background-color: #1F2937 ;
 }
 
+.intro {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+
+}
 .introText {
     font-size: 18px;
     color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-height: fit-content;
 }
 
 .introImage {
@@ -50,13 +75,49 @@ body {
     width: 400px;
 }
 
+.Logo {
+    height: 100px;
+    width: 100px;
+    flex-grow: 1;
+justify-self: flex-start;
+margin-left: 28px;
+}
+
+
 .Main {
     background-color: white;
+    
+}
+
+.Navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.NavbarUL {
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    margin-right: 28px;
+}
+
+.navItems {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 10px;
 }
 
 .randomImage {
     height: 100px;
     width: 100px;
+}
+
+.signUpButton {
+    color: white;
+    background-color: #3882f6;
 }
 
 .Testimonial {
