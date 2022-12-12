@@ -1,9 +1,9 @@
-* {
+/* {
     box-sizing: border-box;
    outline-style: dotted;
     outline-width: 1px; 
   
-  }
+  }*/
 body {
     margin: 0px;
 
@@ -17,6 +17,11 @@ body {
     padding: 0px;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    justify-content: center;
+}
 
 li {
     list-style: none;
@@ -86,7 +91,9 @@ margin-left: 28px;
 
 .Main {
     background-color: white;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Navbar{
