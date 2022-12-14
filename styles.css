@@ -29,29 +29,59 @@ li {
 
 .Action {
     background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .actionText {
     font-size: 18px;
     color: white;
     background-color:#3882f6;
+    width: 60vw;
+    height: 30vh;
+    border-radius: 25px;
+    margin: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .actionButton {
     color: white;
     background-color: #3882f6;
+    align-self: center;
+    justify-self: center;
 }
 
 
 
 .Footer {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fourPics {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    
+
+
+}
+
+.fourPicsText {
+    height: 100px;
+    width: 100px;
+    margin: 40px;
 }
 
 .Header {
@@ -94,6 +124,7 @@ margin-left: 28px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
 .Navbar{
@@ -120,20 +151,33 @@ margin-left: 28px;
 .randomImage {
     height: 100px;
     width: 100px;
+    margin: 40px;
 }
 
 .signUpButton {
     color: white;
     background-color: #3882f6;
+
 }
 
 .Testimonial {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .testimonialText {
     color: #1f2937;
     font-size: 36px;
+    min-height: 20vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+
 }
 
 
